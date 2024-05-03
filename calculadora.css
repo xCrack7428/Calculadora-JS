@@ -1,0 +1,49 @@
+.container {
+    width: 300px;
+    margin: 100px auto;
+    border: 2px solid #131212;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.screen {
+    height: 50px;
+    width: 150px;
+    margin-bottom: 10px;
+    border: 1px solid #131313;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: right;
+    padding: 10px;
+}
+
+.keys {
+    width: 250px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+}
+
+.btn,
+.operator {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover,
+.operator:hover {
+    background-color: #ddd;
+}
+
+.operator {
+    background-color: #ff9933;
+    color: #fff;
+}
